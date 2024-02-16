@@ -22,15 +22,12 @@ This batch script allows you to create symbolic links on Windows interactively. 
 3. **Verify the Symbolic Link**: Once the script has finished running, verify that the symbolic link has been created successfully in your user profile directory.
 
 ## Example
-
-    ```
     <batch_path>> create_symlink.bat
     Enter the path: C:\Users\username\Documents\Project
     Enter the name: _ProjectLink
     Symbolic link created successfully at C:\Users\username\ProjectLink, pointing to C:\Users\username\Documents\Project.
     <patch_path>> cd %userprofile%\_ProjectLink
     C:\Users\username\_ProjectLink>
-    ```
 
 
 ## Notes
